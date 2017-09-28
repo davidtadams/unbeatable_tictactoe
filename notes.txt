@@ -1,0 +1,21 @@
+9/28/17
+original work from below sources
+https://www.youtube.com/watch?v=P2TcQ3h0ipQ
+https://medium.freecodecamp.org/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37
+
+TODO:
+  - add timeout to try and fake AI thinking ??
+  - clean up code
+    - general cleanup and refactor
+    - refactor minimax algorithm
+    - avoid global namespaced code
+  - add different levels of AI easy, medium, hard
+  - redo styling
+    maybe use flexbox and/or grid?
+
+Minimax algorithm
+  - return a value if a terminal state is found (+10, 0, -10)
+  - go through available spots on the board
+  - call the minimax function on each available spot (recursively)
+  - evaluate returning values from function calls
+  - retuns the best value
